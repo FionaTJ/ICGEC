@@ -4,7 +4,7 @@
 Function: This script is to simultaneously estimate the epigenetic conservation of genes and the conservation of histone modifications between two cell lines or two conditions. It was purely written by R. 
 
 ## **Workflow of the algorithm**
-![image](https://github.com/FionaTJ/ICGEC/blob/master/workflow.tif)
+![image](https://github.com/FionaTJ/ICGEC/blob/master/workflow.png)
 
 
 ## **Dependence of R package:**  
