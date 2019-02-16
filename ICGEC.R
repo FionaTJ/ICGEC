@@ -81,7 +81,9 @@ iterfun <- function(data_x_scale,data_y_scale ){
 return(list(gene_pcc,con_pcc))}
 
 ############################## calculate the weights
- calculatefun<- function(x,y){
+ calculatefun<- function(df1,df2){
+	x<-read.table(df1)
+	y<-read.table(df2)
 	common_genes <- fliterfun(x,y) #for fliter
 	data_x<-prefun(x,common_genes) # for log2
 	data_y<-prefun(y,common_genes) # for log2
