@@ -90,7 +90,3 @@ return(list(gene_pcc,con_pcc))}
 	value<-iterfun(data_x_scale,data_y_scale) # for weights
 return(value)}
 
-ICGEC_score <- calculatefun(cell1,cell2)
-write.table(ICGEC_score[[1]],"gene_ICGEC_score")
-write.table(ICGEC_score[[2]],"mark_ICGEC_score")
-
