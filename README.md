@@ -19,6 +19,7 @@ Function: This script is to simultaneously estimate the epigenetic conservation 
 	ICGEC_score_of_mark <- results[[2]]
 
 The input files (df1 and df2) are two data frames in the form of gene-by-mark, e.g.
+
 		H2AK5ac H2BK120ac H2BK5ac H3K18ac H3K23ac H3K27ac H3K27me3 H3K36me3 H3K4ac H3K4me1 H3K4me2 H3K4me3 H3K79me1 H3K9ac H3K9me3 H4K8ac
 	ENSG00000000003    0.18      0.23    0.23    0.29    0.20    0.77     0.06     1.41   0.17    0.18    1.33    1.98     0.18   1.23    0.23   1.02
 	ENSG00000000005    0.06      0.50    0.03    0.32    0.29    0.92     0.20     0.11   0.11    0.67    0.74    0.08     0.11   0.22    0.17   0.11
