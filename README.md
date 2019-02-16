@@ -3,7 +3,7 @@
 
 Function: This script is to simultaneously estimate the epigenetic conservation of genes and the conservation of histone modifications between two cell lines or two conditions. It was purely written by R. 
 
-## **Workflow of the script**
+## **Workflow of the algorithm**
 ![image](https://github.com/FionaTJ/ICGEC/blob/master/workflow.tif)
 
 
@@ -59,4 +59,6 @@ The input files (df1 and df2) are two data frames in the form of gene-by-mark, e
 	H3K9ac           0.82          0.83          0.84          0.84          0.83          0.83          0.83          0.83          0.83
 	H3K9me3          0.72          0.76          0.76          0.75          0.74          0.74          0.74          0.73          0.73
 	H4K8ac           0.31          0.17          0.04         -0.11         -0.19         -0.20         -0.21         -0.21         -0.21
+
+#Note: Columns represent the results from the iterative process of ICGEC. The last column is the final converged scores (ICGEC score of genes or marks).   
 
